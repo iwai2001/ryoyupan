@@ -1,0 +1,19 @@
+@charset "utf-8";
+body {
+    margin: 0;      //上下空白
+    padding: 0;     //横空白
+    background-color: #ffffff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000000;
+}
+
+a:visited {
+    color: #ff0000;
+}
