@@ -2,7 +2,6 @@
 body {
     margin: 0;      //上下空白
     padding: 0;     //横空白
-    background-color: #ffffff;
 }
 
 ul {
@@ -16,4 +15,19 @@ a {
 
 a:visited {
     color: #ff0000;
+}
+
+.bar {
+    display: flex;
+    justify-content:space-around;
+}
+
+.menuBar {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navigationBar li {
+    display: inline;
 }
